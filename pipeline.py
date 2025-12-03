@@ -2,10 +2,10 @@ import pandas as pd
 import pyodbc
 from datetime import datetime
 
-print("\nIniciando el Pipeline ETL – Version Dominicanizada\n")
+print("\nIniciando el Pipeline ETL\n")
 
 # ===============================================
-# Conexión a SQL Server (como pediste)
+# Conexión a SQL Server 
 # ===============================================
 conn = pyodbc.connect(
     "DRIVER={SQL Server};"
@@ -193,3 +193,4 @@ cursor.close()
 conn.close()
 
 print("\nETL Finalizado.\n")
+
