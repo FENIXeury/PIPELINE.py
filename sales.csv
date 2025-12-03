@@ -1,0 +1,5 @@
+sale_id,product_id,client_id,quantity,price,date,source
+S001,P001,C001,1,250,2025-09-22,Colmado CSV
+S002,P002,C002,3,45,2025-10-01,Colmado CSV
+S003,P003,C003,2,380,22/09/2025,App Movil
+S004,P004,C004,1,210,01-10-2025,Colmado Herrera
